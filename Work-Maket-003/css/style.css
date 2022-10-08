@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+}
+.box-background {
+    background-color: white;
+}
+.box-main {
+    width: 1600px;
+}
+.box-one {
+    padding: 0px 200px;
+}
+.map {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
