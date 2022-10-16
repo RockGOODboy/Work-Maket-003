@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Merriweather-BoldItalic;
+    src: url(../fonts/Merriweather-BoldItalic.ttf);
+}
 * {
     box-sizing: border-box;
 }
@@ -6,16 +10,73 @@ body {
 }
 .box-background {
     background-color: white;
+    margin: 0 auto;
 }
 .box-main {
-    width: 1600px;
+    margin: 0 auto;
+    max-width: 1600px;
 }
-.box-one {
+.space {
     padding: 0px 200px;
 }
 .map {
+    margin: 0 auto;
     display: flex;
+    color: #757575;
+}
+.logo {
+    padding: 15px 105px 0px 0px;
+    display: flex;
+    font-family: sans-serif;
+}
+.logo img{
+    width: 50px;
+    height: 40px;
+}
+.name {
+    font-size: 25px;
+    padding: 10px;
+    text-transform: uppercase;
 }
 ul {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px;
+    padding-top: 15px;
+    display: flex;
     list-style: none;
 }
+li {
+    margin: 0 auto;
+    padding: 0px 9px;
+}
+.navigation {
+    padding-right: 100px;
+}
+.line-height {
+    background-color: #757575;
+    width: 1px;
+    height: 15px;
+}
+.service-map {
+    margin: 0px auto;
+    height: 635px;
+    background-image: url(../img/Image-service-map.png);
+    color: white;
+    text-align: center;
+}
+.info-centre {
+    padding-top: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4 {
+    font-size: 15px;
+    font-weight: 20px;
+}
+h1 {
+    font-family: Merriweather-BoldItalic;
+    text-transform: uppercase;
+    font-size: 50px;
+    border-top: 1px white solid;
+}
+    
